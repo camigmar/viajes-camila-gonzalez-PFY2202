@@ -327,9 +327,19 @@ Los colores van en variables para cambiarlos en un solo lugar y que todo el siti
 
 | Navegador | Escritorio | Móvil |
 |---|---|---|
-| Chrome | Pendiente | Pendiente |
-| Edge | Pendiente | Pendiente |
-| Firefox | Pendiente | Pendiente |
+| Chrome | ✓ Funciona | ✓ Funciona (vista móvil simulada en las herramientas de desarrollo, iPhone SE 375 × 667) |
+| Edge | ✓ Funciona | No probado |
+
+Fecha de las pruebas: 23-11-2026. Se probó el sitio publicado en GitHub Pages.
+
+Lo revisado:
+
+- Inicio y hero.
+- Búsqueda ("rio").
+- Detalle de un destino con las pestañas Vuelos / Hoteles y el filtro "Solo disponibles".
+- `/destinos/99` (error).
+- Recarga con F5 en una ruta interna.
+- Entrada directa a `/destinos/1`.
 
 ## Autoría
 
