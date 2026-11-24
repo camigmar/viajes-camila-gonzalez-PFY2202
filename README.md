@@ -328,7 +328,7 @@ Los colores van en variables para cambiarlos en un solo lugar y que todo el siti
 | Navegador | Escritorio | Móvil |
 |---|---|---|
 | Chrome | ✓ Funciona | ✓ Funciona (vista móvil simulada en las herramientas de desarrollo, iPhone SE 375 × 667) |
-| Edge | ✓ Funciona | No probado |
+| Edge | ✓ Funciona | ✓ Funciona (vista móvil simulada en las herramientas de desarrollo) |
 
 Fecha de las pruebas: 23-11-2026. Se probó el sitio publicado en GitHub Pages.
 
