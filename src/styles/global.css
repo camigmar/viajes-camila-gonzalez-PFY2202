@@ -1,0 +1,63 @@
+/* Mismo orden de capas que tailwind.css */
+@layer theme, base, components, utilities;
+
+/* Todo va en la capa base para que las clases de Tailwind le ganen */
+@layer base {
+  /* Colores y medidas del sitio (estilo agencia de viajes: celeste, blanco y negro) */
+  :root {
+    --celeste: #d4f7fb;
+    --celeste-medio: #a9ebf3;
+    --negro: #111418;
+    --negro-hover: #2c3239;
+    --blanco: #ffffff;
+    --gris-fondo: #f3f6f7;
+    --borde: #d5dde1;
+    --texto: #1b1f23;
+    --texto-suave: #55606a;
+    --verde: #1d6b3a;
+    --verde-suave: #e2f5e8;
+    --ambar: #7a4f00;
+    --ambar-suave: #fff1cf;
+    --rojo: #b3261e;
+    --rojo-suave: #fde3df;
+    --radio: 24px;
+    --radio-grande: 40px;
+    --sombra: 0 10px 30px rgba(17, 20, 24, 0.07);
+    --fuente: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--fuente);
+    background: var(--blanco);
+    color: var(--texto);
+    line-height: 1.5;
+  }
+
+  /* Titulares grandes y livianos */
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    color: var(--texto);
+    line-height: 1.15;
+  }
+
+  h1,
+  h2 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+}
